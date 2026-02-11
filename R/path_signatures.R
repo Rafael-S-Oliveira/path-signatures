@@ -1,8 +1,16 @@
 #' Author: Daniel A.M. Villela, Rafael Santos de Oliveira and Marlon Mesquita Lopes Cabreira
-#' functions to impplement path signature in R
+#' functions to implement path signature in R
 #' and lasso or ridge regression with signatures
 #'
+#' Calculate Path Signature
 #'
+#' @param path Numeric matrix representing the path
+#' @param m Integer truncation level
+#' @param logT Logical; if TRUE compute log-signature
+#' @return Numeric vector of signature coefficients
+#' @export
+#' @examples
+#' path <- matrix(c(1,1,3,10,20,30), ncol=2)
 
 
 library("reticulate")
