@@ -9,9 +9,9 @@ pathsig.one(path, m, logT = TRUE)
 \arguments{
 \item{path}{define path array}
 
-\item{m}{truncation level-integer
+\item{m}{truncation level-integer}
 
-logT = TRUE (log-signature) or logT = FALSE}
+\item{logT}{= TRUE (log-signature) or logT = FALSE}
 }
 \description{
 function to implement path signature or log path signature
