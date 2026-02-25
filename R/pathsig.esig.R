@@ -8,7 +8,7 @@
 #' m<-2
 #' pathsig.esig(path,m)
 #'
-#' @export
+#' @import
 pathsig.esig <- function(path, m) {
   truncation_level = as.integer(m)
   signature <- esig$stream2sig(path, truncation_level)
