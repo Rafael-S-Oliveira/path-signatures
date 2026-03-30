@@ -19,8 +19,8 @@ lasso.pathsig(L, y, m, Ltype = "list", family = "gaussian")
 }
 \value{
 Uma lista contendo o melhor valor de lambda (\code{lambda}), os coeficientes (\code{coef}),
-  o modelo final ajustado (\code{model}), o modelo de validação cruzada (\code{cvmodel}),
-  e a matriz de assinaturas gerada (\code{sig}).
+o modelo final ajustado (\code{model}), o modelo de validação cruzada (\code{cvmodel}),
+e a matriz de assinaturas gerada (\code{sig}).
 }
 \description{
 Esta função ajusta um Modelo Linear Generalizado com penalização Lasso

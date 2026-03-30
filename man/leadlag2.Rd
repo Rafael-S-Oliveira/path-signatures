@@ -13,7 +13,7 @@ serem transformadas).}
 }
 \value{
 Um array (matriz) bidimensional contendo o caminho transformado
-  com a técnica lead-lag.
+com a técnica lead-lag.
 }
 \description{
 Esta função aplica a transformação "lead-lag" (avanço-atraso) a um caminho

@@ -1,17 +1,20 @@
 Package: pathsignatures
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Path Signatures and Lasso Regression with Signatures
 Version: 0.1.0
 Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
+    person("Daniel A.M.", "Villela", role = c("aut", "cre"), email = "daniel.villela@fiocruz.br"),
+    person("Rafael Santos", "Oliveira", role = "aut", email = "rafaelrso@ufrrj.br"),
+    person("Marlon Mesquita", "Cabreira", role = "aut",email = "marlonmlc23@gmail.com")
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Implements path signatures in R using the 'esig' Python module,
+    and provides tools for lasso or ridge regression with signature features.
+Depends: R (>= 4.5.2)
+Imports:
+    dplyr,
+    reticulate
+License: 
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3

@@ -25,8 +25,8 @@ confiança ou erro padrão (caso seja suportado pelo modelo base).}
 }
 \value{
 Se \code{conf = FALSE}, retorna um vetor com os valores preditos.
-  Se \code{conf = TRUE}, retorna uma lista com as predições (\code{pred})
-  e as estimativas de erro/confiança (\code{conf}).
+Se \code{conf = TRUE}, retorna uma lista com as predições (\code{pred})
+e as estimativas de erro/confiança (\code{conf}).
 }
 \description{
 Esta função realiza previsões para novos dados utilizando um modelo previamente

@@ -11,7 +11,7 @@ leadlag(X)
 }
 \value{
 Uma matriz onde as colunas originais são duplicadas e deslocadas,
-  retornando a estrutura combinada de avanço e atraso.
+retornando a estrutura combinada de avanço e atraso.
 }
 \description{
 Esta é uma implementação alternativa e mais geral da transformação "lead-lag",

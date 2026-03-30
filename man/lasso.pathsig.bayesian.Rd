@@ -28,8 +28,8 @@ lasso.pathsig.bayesian(
 }
 \value{
 Uma lista contendo o modelo bayesiano ajustado (\code{model} e \code{cvmodel}),
-  valores de referência para lambda e coeficientes, a matriz de assinaturas (\code{sig}),
-  e as médias (\code{meanv}) e desvios padrões (\code{sdv}) usados na normalização.
+valores de referência para lambda e coeficientes, a matriz de assinaturas (\code{sig}),
+e as médias (\code{meanv}) e desvios padrões (\code{sdv}) usados na normalização.
 }
 \description{
 Esta função implementa uma abordagem sofisticada e bayesiana para o modelo

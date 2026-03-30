@@ -12,8 +12,8 @@ um caminho. Espera-se que todos os elementos tenham o mesmo número de colunas.}
 }
 \value{
 Uma lista nomeada contendo três elementos: \code{mlist} (a lista original
-  com os valores normalizados), \code{mmean} (as médias globais calculadas por coluna)
-  e \code{sd} (os desvios padrões globais calculados por coluna).
+com os valores normalizados), \code{mmean} (as médias globais calculadas por coluna)
+e \code{sd} (os desvios padrões globais calculados por coluna).
 }
 \description{
 Esta função recebe uma lista contendo múltiplos caminhos (matrizes ou data frames),

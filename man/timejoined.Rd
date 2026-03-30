@@ -12,7 +12,7 @@ Geralmente espera-se que tenha pelo menos duas colunas.}
 }
 \value{
 Um data frame com duas colunas (\code{time} e \code{value}) contendo
-  o caminho transformado e estruturado para o pacote esig.
+o caminho transformado e estruturado para o pacote esig.
 }
 \description{
 Esta função recebe um conjunto de dados sequenciais e aplica a transformação

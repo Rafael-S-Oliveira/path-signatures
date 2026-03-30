@@ -18,7 +18,7 @@ a função itera sobre os elementos da lista. Caso contrário, itera sobre as co
 }
 \value{
 Uma matriz transposta onde cada linha corresponde à assinatura
-  calculada de um dos caminhos fornecidos na entrada.
+calculada de um dos caminhos fornecidos na entrada.
 }
 \description{
 Esta função atua como um facilitador (wrapper) para aplicar o cálculo de

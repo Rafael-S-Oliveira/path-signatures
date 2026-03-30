@@ -21,10 +21,10 @@ lasso.pathsig.util(L, y, m, Ltype = "list", family = "gaussian", norm = TRUE)
 }
 \value{
 Uma lista abrangente contendo o modelo Lasso final ajustado (\code{model}),
-  os coeficientes (\code{coef}), o melhor lambda (\code{lambda}), o modelo de
-  validação cruzada (\code{cvmodel}), o grau de truncamento (\code{sigdegree}),
-  a matriz de assinaturas (\code{sig}), e as médias (\code{meanv}) e desvios
-  padrões (\code{sdv}) usados na normalização.
+os coeficientes (\code{coef}), o melhor lambda (\code{lambda}), o modelo de
+validação cruzada (\code{cvmodel}), o grau de truncamento (\code{sigdegree}),
+a matriz de assinaturas (\code{sig}), e as médias (\code{meanv}) e desvios
+padrões (\code{sdv}) usados na normalização.
 }
 \description{
 Esta função é o motor principal do pipeline preditivo. Ela recebe uma lista de
