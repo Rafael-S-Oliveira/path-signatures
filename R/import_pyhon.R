@@ -3,8 +3,8 @@
 #' and lasso regression with signatures
 #'
 #'
-#'@import dplyr
-#'@import reticulate
+#' @import dplyr
+#' @import reticulate
 # Defina o caminho do conda (substitua pelo seu)
 caminho_conda <- "C://Users//marlo//Anaconda//Scripts//conda.exe"
 #'
@@ -41,7 +41,7 @@ pathsig.env <- function(conda_path = caminho_conda) {
 #'
 #'
 #'
-#' @import esig
+
 getESig <- function(x) {
   esig <- import("esig")
   esig
@@ -140,7 +140,7 @@ getESig <- function(x) {
   esig
 }
 
-esig <- import("esig")
+#esig <- import("esig")
 
 #pathsig.env()
 
