@@ -9,7 +9,7 @@ Authors@R: c(
   )
 Description: Implements path signatures in R using the 'esig' Python module,
     and provides tools for lasso or ridge regression with signature features.
-Depends: R (>= 4.5.2)
+Depends: R (>= 4.5.1)
 Imports:
     dplyr,
     reticulate

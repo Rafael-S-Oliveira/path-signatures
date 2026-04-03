@@ -15,7 +15,6 @@
 #' @return Uma matriz transposta onde cada linha corresponde à assinatura
 #'   calculada de um dos caminhos fornecidos na entrada.
 #'
-
 pathsig <- function(L, Ltype, m) {
 
   lL <- length(L)

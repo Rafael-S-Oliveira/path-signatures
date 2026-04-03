@@ -11,6 +11,22 @@
 #' @return Um data frame com duas colunas (\code{time} e \code{value}) contendo
 #'   o caminho transformado e estruturado para o pacote esig.
 #'
+#' @examples
+#' # Carregando o pacote
+#' library(pathsignatures)
+#'
+#' # Criando um caminho bidimensional simples (3 observações no tempo)
+#' Xpath <- matrix(c(2, 3, 4, 5, 5, 6), ncol = 2)
+#'
+#' # Exibindo o caminho original
+#' Xpath
+#'
+#' # Aplicando a transformação timejoined
+#' tj <- timejoined(Xpath)
+#'
+#' # Visualizando a nova matriz transformada em degraus
+#' tj
+#'
 #' @export
 timejoined <- function(X) {
   # Appends the last element of X to the list

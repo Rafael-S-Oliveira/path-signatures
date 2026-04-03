@@ -20,3 +20,20 @@ matemática "time-joined" (tempo-junto). Ela intercala os valores criando uma
 estrutura em degraus, o que é um passo de pré-processamento comum antes do
 cálculo de assinaturas de caminho (path signatures).
 }
+\examples{
+# Carregando o pacote
+library(pathsignatures)
+
+# Criando um caminho bidimensional simples (3 observações no tempo)
+Xpath <- matrix(c(2, 3, 4, 5, 5, 6), ncol = 2)
+
+# Exibindo o caminho original
+Xpath
+
+# Aplicando a transformação timejoined
+tj <- timejoined(Xpath)
+
+# Visualizando a nova matriz transformada em degraus
+tj
+
+}

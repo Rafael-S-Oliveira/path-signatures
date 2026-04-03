@@ -12,6 +12,21 @@
 #'   com os valores normalizados), \code{mmean} (as médias globais calculadas por coluna)
 #'   e \code{sd} (os desvios padrões globais calculados por coluna).
 #'
+#' @examples
+#' # Carregando o pacote
+#' library(pathsignatures)
+#'
+#' # Criando dois caminhos fictícios com 5 observações e 2 dimensões cada
+#' caminho1 <- matrix(rnorm(10), ncol = 2)
+#' caminho2 <- matrix(rnorm(10), ncol = 2)
+#' lista_de_caminhos <- list(caminho1, caminho2)
+#'
+#' # Aplicando a normalização global
+#' resultados_norm <- doNorm(lista_de_caminhos)
+#'
+#' # Visualizando as médias e os caminhos normalizados
+#' resultados_norm$mmean
+#' resultados_norm$mlist
 
 doNorm <- function(L) {
 
